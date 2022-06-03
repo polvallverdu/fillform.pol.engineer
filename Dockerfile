@@ -1,7 +1,10 @@
 FROM node:16.3.0-alpine
 
 # Here you should set your ENV variables
-ENV TEXT="Thank you for using my template <3 -Pol"
+ENV PORT=8080
+ENV DISCORD_WEBHOOK="google.com"
+
+EXPOSE 8080
 
 WORKDIR /app
 

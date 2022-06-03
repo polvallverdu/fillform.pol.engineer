@@ -1,0 +1,8 @@
+POST http://localhost:88/ HTTP/2.0
+Content-Type: application/json
+
+{
+  "name": "test",
+  "email": "test@test.com",
+  "message": "test"
+}
