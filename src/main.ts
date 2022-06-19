@@ -14,7 +14,7 @@ const limiter = rateLimit({
 	legacyHeaders: false, // Disable the `X-RateLimit-*` headers
 });
 const corsOptions = {
-  origin: "https://pol.engineer/",
+  origin: "https://pol.engineer",
   optionsSuccessStatus: 200,
 }
 app.use(limiter);
